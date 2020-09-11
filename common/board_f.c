@@ -151,7 +151,7 @@ static int display_text_info(void)
 static int announce_pre_serial(void)
 {
 	if (gd && gd->serial.using_pre_serial)
-		printf("PreSerial: %d\n", gd->serial.id);
+		printf("PreSerial222: %d\n", gd->serial.id);
 
 	return 0;
 }
