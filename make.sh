@@ -185,8 +185,8 @@ prepare()
 			echo
 			exit 1
 		else
-			echo "make for ${BOARD}_defconfig by -j${JOB}"
-			make ${BOARD}_defconfig ${OUTOPT}
+			echo "ignore make for ${BOARD}_defconfig by -j${JOB}"
+			#make ${BOARD}_defconfig ${OUTOPT}
 		fi
 		;;
 	esac
