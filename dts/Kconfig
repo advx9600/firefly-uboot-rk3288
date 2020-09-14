@@ -7,6 +7,7 @@ config SUPPORT_OF_CONTROL
 
 config DTC
 	bool
+	default n
 
 config PYLIBFDT
 	bool
